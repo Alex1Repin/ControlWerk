@@ -1,14 +1,16 @@
-﻿string[] array = ["hello", "2", "world", ":-)"]
+﻿string[] array = {"hello", "2", "world", ":-)"};
+
+void Array(string[] array)
 {
-    for (int i = 0: i < array.Length; i ++)
+    for (int i = 0; i < array.Length; i ++)
     {
         string arr = array[i];
         char[] ar = arr.ToCharArray();
-        j = ar.Length;
-        if (j <= 3)
+        if (ar.Length <= 3)
         {
-            Console.Write($"[{sring.Join(", ", arr)}]");
+            Console.Write($"[{string.Join(", ", arr)}]");
         }
 
     }
 }
+Array(array);
