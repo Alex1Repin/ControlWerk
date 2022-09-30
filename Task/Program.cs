@@ -1,5 +1,6 @@
 ﻿//string[] array = {"hello", "2", "world", ":-)"};
-string[] stringes = {"124", "-2", "4589", "Computer_science"};
+//string[] stringes = {"124", "-2", "4589", "Computer_science"};
+string[] array = {"Kazan", "Russia", "world"};
 
 void Array(string[] array)
 {
@@ -14,4 +15,4 @@ void Array(string[] array)
 
     }
 }
-Array(stringes);
+Array(array);
